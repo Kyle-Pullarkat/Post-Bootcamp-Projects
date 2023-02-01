@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.searchbar{
+  padding-top: 5%;
+}
+
+
+.high, .windspeed, .low, .humidity{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.upper-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  /*  
+  center: centers the backgound image.
+  EX: background-position: center
+  center/cover: Resize backgound image to cover the entire container 
+  EX: background size: cover;
+
+  pos absolute: fills everything
+  */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+}
+
+.container:before {
+  content: '';
+  background: url('./assets/clouds3.jpeg') center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  z-index: -1;
+}
+
+
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lower-body{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+  width: 70%;
+
+  margin: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: rgba(255,255,255,0.2);
+}
+
+/* Fixes white on outer edges */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* searchbar styling */
+.container input{
+  padding: 10px 23px;
+  font-size: 20px;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.1);
+}
+
+.searchbar ::placeholder{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Font Sizing */
+h1{
+  font-size: 100px;
+}
+
+p{
+  font-size: 30px;
+}
+
+.header p{
+  font-size: 50px;
+}
+
+.bold{
+  font-weight: 1000;
+}
