@@ -6,7 +6,7 @@ function App() {
   const [city,setCity] = useState('')
 
 
-const url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=51fca1df80c73dc1f04f3948cb52569b`
+const url=``
 
 // when user enters city or state get the city/state and put it into url and get api data
 const getCity = (event) => {
