@@ -36,4 +36,21 @@
   .btn1 button{
       color: white;
       background-color: red;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+  }
+/* Cursor: pointer allows pointer finger when hovering button 
+border none removed the white outlines to make it look better
+ */
+
+  .btn1 :hover{
+    opacity: 0.9;
+  }
+  /* remember to use class :hover not class button hover */
+
+  p{
+    color: white;
   }
