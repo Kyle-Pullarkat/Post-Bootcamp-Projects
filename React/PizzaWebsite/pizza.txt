@@ -9,3 +9,9 @@ Functions to add
 4. Menu Items 
 5. Add Prices of all Items
 6. Logout and start new order
+
+
+next things to add
+1. multiple background images (more images below)
+2. have page scroll down to section when u click the link
+3. add menu and buttons
