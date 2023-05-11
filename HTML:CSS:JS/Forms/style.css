@@ -7,11 +7,27 @@
     width: 100%;
     background-size: cover;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* background image height: 100% would not work, fix is below (setting html/body to height100%) */
 html, body{
     height: 100%;
+}
+
+/* rgba wouldnt work with colors ex white,white,white, 0.5*/
+.login-box{
+    border: 1px solid #dddfe2;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 500px;
+    height: 250px;
+    margin-top: 7.5%;
+    color: black;
+}
+
+.login-box {
+
 }
 
 *{

@@ -3,3 +3,17 @@ website ideas
 1. sign up/login for Exercise Page, track steps,weight,calories
 2. sign up/login for to-do list entries
 3. sign up/login for pizza website 
+
+
+
+
+Exercise fitness tracker
+- track steps, use database sql
+- track weight ,
+- track calories?
+- welcome {user} , display date or day? 
+- home page displays current weight , goal weight? navbar for logs of weight,calories,etc
+
+advanced
+- display a graph for weight loss?
+
