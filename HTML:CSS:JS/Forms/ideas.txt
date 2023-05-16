@@ -5,6 +5,11 @@ website ideas
 3. sign up/login for pizza website 
 
 
+- either underline when you hover over navbar links(home , contact us etc) Or make the text larger or 
+change the color of the text when hovered or all of the above
+
+- have any button change colors on hover and mouse cursor: pointer;
+
 
 
 Exercise fitness tracker
