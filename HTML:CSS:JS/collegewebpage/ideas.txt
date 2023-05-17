@@ -1,0 +1,8 @@
+
+
+- on hover change collors for navbar
+- include maps with location
+- use logos 
+- use transition
+- include stats (ex: most diverse college...)
+- include charts maybe???
