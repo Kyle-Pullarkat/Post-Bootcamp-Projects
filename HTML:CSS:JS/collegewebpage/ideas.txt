@@ -6,3 +6,5 @@
 - use transition
 - include stats (ex: most diverse college...)
 - include charts maybe???
+
+- make navbar links ,.... navbar links scroll down page to each section

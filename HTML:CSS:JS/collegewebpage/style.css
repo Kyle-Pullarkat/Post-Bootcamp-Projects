@@ -53,8 +53,35 @@ i{
     width: 80%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 46%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+}
+
+.main-text h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.main-text p{
+    padding-bottom: 8px;
+}
+
+.btn1{
+    display: inline-block;
+    text-decoration: none; 
+    color: #fff;
+    border: 1px;
+    border-style: solid;
+    border-color: #fff;
+    padding: 5px 12px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background: rgba(0, 255, 191,0.8);
+    transition: 1s;
 }
