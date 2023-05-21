@@ -8,3 +8,13 @@
 - include charts maybe???
 
 - make navbar links ,.... navbar links scroll down page to each section
+
+
+
+new
+
+- fix locations sections, i think it could definitely look better
+
+-make shorter so u can see whole thing when clicking location?
+-although this depends on browser size
+- add about us section 

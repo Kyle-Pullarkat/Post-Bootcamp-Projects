@@ -82,7 +82,7 @@ i{
 }
 
 .btn1:hover{
-    background: rgba(0, 255, 191,0.8);
+    background: rgba(58, 159, 253,0.8);
     transition: 1s;
 }
  /* Next Section -courses */
@@ -100,7 +100,7 @@ i{
 }
 
 .classes p{
-    color: black;
+    color: #777;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -132,4 +132,115 @@ i{
 
 .eachclass:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+}
+
+.eachclass p{
+    color: black;
+}
+
+/*--------------- Next Section Locations  ---------------*/
+
+.locations{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 30px;
+    background-color: rgba(78, 72, 72, 0.089);
+    height: 100%;
+    width: 100%;
+}
+
+.locations h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.location-row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.location-col{
+    flex-basis: 30%;
+    position: relative;
+}
+
+.location-col img{
+    width: 500px;
+    height: 575px;
+    border-radius: 10px;
+}
+
+.location-col img:hover{
+opacity: 0.5;
+}
+
+.location-col h3{
+    padding-bottom: 5%;
+}
+
+.loc-title{
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 25%;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.locations p{
+    font-weight: 300;
+    font-size: 300;
+    color: #777;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+.map{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.map h1{
+    font-size: 36px;
+    font-weight: 600;
+        
+}
+
+.map-row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.map-col p{
+    padding-bottom: 5%;
+}
+
+.map-col h3{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.map-col p{
+    font-weight: 300;
+    font-size: 300;
+    color: #777;
+    padding: 10px;
+}
+
+
+.nav-links a{
+    transition: 1s;
 }
