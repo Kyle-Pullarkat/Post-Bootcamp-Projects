@@ -18,3 +18,4 @@ new
 -make shorter so u can see whole thing when clicking location?
 -although this depends on browser size
 - add about us section 
+-navbar onhover affects could be better
