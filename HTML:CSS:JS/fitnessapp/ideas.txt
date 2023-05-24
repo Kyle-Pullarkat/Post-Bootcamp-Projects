@@ -1,0 +1,6 @@
+
+1. fix file structure
+2. fix buttons on index
+3. make steps, weight and calories page
+4. re learn sql 
+5. make button for login and register
