@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-page{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgb(0, 0, 0,0.5)),url(assets/20220601_170309.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    align-items: center;
+    color: white;
+}
+
+.title h1{
+    margin-left: 25px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+}
+
+.link a:hover{
+    color: red;
+}
+
+.main-text{
+    text-align: center;
+}
+
+.main-text h1{
+    color: white;
+    font-size: 65px;
+    font-weight: 600;
+    margin-top: 25vh;
+}
+
+.main-text p{
+    color: white;
+}
+
+
+
+button{
+    margin-top: 2%;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 80px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #d71e1e;
+    height: 48px;
+}
+    
+    
+    button:hover{
+        transform: scale(1.04);
+        background-color: #e02121;
+    }
+
+    .signupbtn{
+        
+    }
