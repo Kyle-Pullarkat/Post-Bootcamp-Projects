@@ -4,3 +4,8 @@
 3. make steps, weight and calories page
 4. re learn sql 
 5. make button for login and register
+
+
+new ideas
+1. have login page pop up and if user doesnt have login they can click create account at the bottom
+- refrence image included in this folder
